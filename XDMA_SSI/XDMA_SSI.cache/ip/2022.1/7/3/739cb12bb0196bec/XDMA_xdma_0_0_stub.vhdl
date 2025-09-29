@@ -1,0 +1,86 @@
+-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+-- Date        : Thu Sep 18 16:19:16 2025
+-- Host        : DESKTOP-VQGIJDC running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
+--               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ XDMA_xdma_0_0_stub.vhdl
+-- Design      : XDMA_xdma_0_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xc7k325tffg900-2
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+  Port ( 
+    sys_clk : in STD_LOGIC;
+    sys_rst_n : in STD_LOGIC;
+    user_lnk_up : out STD_LOGIC;
+    pci_exp_txp : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    pci_exp_txn : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    pci_exp_rxp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    pci_exp_rxn : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    axi_aclk : out STD_LOGIC;
+    axi_aresetn : out STD_LOGIC;
+    usr_irq_req : in STD_LOGIC_VECTOR ( 0 to 0 );
+    usr_irq_ack : out STD_LOGIC_VECTOR ( 0 to 0 );
+    msix_enable : out STD_LOGIC;
+    m_axib_awid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_awaddr : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axib_awlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axib_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axib_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axib_awprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axib_awvalid : out STD_LOGIC;
+    m_axib_awready : in STD_LOGIC;
+    m_axib_awlock : out STD_LOGIC;
+    m_axib_awcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_wdata : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axib_wstrb : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axib_wlast : out STD_LOGIC;
+    m_axib_wvalid : out STD_LOGIC;
+    m_axib_wready : in STD_LOGIC;
+    m_axib_bid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axib_bvalid : in STD_LOGIC;
+    m_axib_bready : out STD_LOGIC;
+    m_axib_arid : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_araddr : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axib_arlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axib_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axib_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axib_arprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
+    m_axib_arvalid : out STD_LOGIC;
+    m_axib_arready : in STD_LOGIC;
+    m_axib_arlock : out STD_LOGIC;
+    m_axib_arcache : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_rid : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    m_axib_rdata : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axib_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    m_axib_rlast : in STD_LOGIC;
+    m_axib_rvalid : in STD_LOGIC;
+    m_axib_rready : out STD_LOGIC;
+    s_axis_c2h_tdata_0 : in STD_LOGIC_VECTOR ( 63 downto 0 );
+    s_axis_c2h_tlast_0 : in STD_LOGIC;
+    s_axis_c2h_tvalid_0 : in STD_LOGIC;
+    s_axis_c2h_tready_0 : out STD_LOGIC;
+    s_axis_c2h_tkeep_0 : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    m_axis_h2c_tdata_0 : out STD_LOGIC_VECTOR ( 63 downto 0 );
+    m_axis_h2c_tlast_0 : out STD_LOGIC;
+    m_axis_h2c_tvalid_0 : out STD_LOGIC;
+    m_axis_h2c_tready_0 : in STD_LOGIC;
+    m_axis_h2c_tkeep_0 : out STD_LOGIC_VECTOR ( 7 downto 0 )
+  );
+
+end decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix;
+
+architecture stub of decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "sys_clk,sys_rst_n,user_lnk_up,pci_exp_txp[1:0],pci_exp_txn[1:0],pci_exp_rxp[1:0],pci_exp_rxn[1:0],axi_aclk,axi_aresetn,usr_irq_req[0:0],usr_irq_ack[0:0],msix_enable,m_axib_awid[3:0],m_axib_awaddr[63:0],m_axib_awlen[7:0],m_axib_awsize[2:0],m_axib_awburst[1:0],m_axib_awprot[2:0],m_axib_awvalid,m_axib_awready,m_axib_awlock,m_axib_awcache[3:0],m_axib_wdata[63:0],m_axib_wstrb[7:0],m_axib_wlast,m_axib_wvalid,m_axib_wready,m_axib_bid[3:0],m_axib_bresp[1:0],m_axib_bvalid,m_axib_bready,m_axib_arid[3:0],m_axib_araddr[63:0],m_axib_arlen[7:0],m_axib_arsize[2:0],m_axib_arburst[1:0],m_axib_arprot[2:0],m_axib_arvalid,m_axib_arready,m_axib_arlock,m_axib_arcache[3:0],m_axib_rid[3:0],m_axib_rdata[63:0],m_axib_rresp[1:0],m_axib_rlast,m_axib_rvalid,m_axib_rready,s_axis_c2h_tdata_0[63:0],s_axis_c2h_tlast_0,s_axis_c2h_tvalid_0,s_axis_c2h_tready_0,s_axis_c2h_tkeep_0[7:0],m_axis_h2c_tdata_0[63:0],m_axis_h2c_tlast_0,m_axis_h2c_tvalid_0,m_axis_h2c_tready_0,m_axis_h2c_tkeep_0[7:0]";
+attribute X_CORE_INFO : string;
+attribute X_CORE_INFO of stub : architecture is "XDMA_xdma_0_0_core_top,Vivado 2022.1";
+begin
+end;

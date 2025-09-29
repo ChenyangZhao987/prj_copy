@@ -1,0 +1,455 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Sep 28 16:44:28 2025
+# Process ID: 1356
+# Current directory: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20464 C:\Users\Zcy\Desktop\new_prj\XDMA_SSI\XDMA_SSI.xpr
+# Log file: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/vivado.log
+# Journal file: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI\vivado.jou
+# Running On: DESKTOP-VQGIJDC, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8428 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:13 . Memory (MB): peak = 1637.559 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k325tffg900-2
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_axi_bram_ctrl_0_5/XDMA_axi_bram_ctrl_0_5.dcp' for cell 'nolabel_line276/XDMA_i/axi_bram_ctrl_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_axi_bram_ctrl_0_4/XDMA_axi_bram_ctrl_0_4.dcp' for cell 'nolabel_line276/XDMA_i/axi_bram_ctrl_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_blk_mem_gen_0_0/XDMA_blk_mem_gen_0_0.dcp' for cell 'nolabel_line276/XDMA_i/blk_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/XDMA_xdma_0_0.dcp' for cell 'nolabel_line276/XDMA_i/xdma_0'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.942 . Memory (MB): peak = 1637.559 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1189 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_4/pcie2_fifo_generator_tgt_brdg.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/XDMA_xdma_0_0_axi_stream_intf_i/XDMA_xdma_0_0_rx_demux_i/tgt_brdg_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_4/pcie2_fifo_generator_tgt_brdg.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/XDMA_xdma_0_0_axi_stream_intf_i/XDMA_xdma_0_0_rx_demux_i/tgt_brdg_fifo_inst/U0'
+Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_3/pcie2_fifo_generator_dma_cpl.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/XDMA_xdma_0_0_axi_stream_intf_i/XDMA_xdma_0_0_rx_demux_i/dma_cpl_fifo_inst/U0'
+Finished Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_3/pcie2_fifo_generator_dma_cpl.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/XDMA_xdma_0_0_axi_stream_intf_i/XDMA_xdma_0_0_rx_demux_i/dma_cpl_fifo_inst/U0'
+Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_0/source/XDMA_xdma_0_0_pcie2_ip-PCIE_X0Y0.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst'
+Finished Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/ip_0/source/XDMA_xdma_0_0_pcie2_ip-PCIE_X0Y0.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst'
+Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/XDMA_xdma_0_0_board.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst'
+Finished Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/XDMA_xdma_0_0_board.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst'
+Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/source/XDMA_xdma_0_0_pcie3_7vx_ip.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst'
+Finished Parsing XDC File [c:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.gen/sources_1/bd/XDMA/ip/XDMA_xdma_0_0/source/XDMA_xdma_0_0_pcie3_7vx_ip.xdc] for cell 'nolabel_line276/XDMA_i/xdma_0/inst'
+Parsing XDC File [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line294/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:45]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:45]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line297/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:48]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:48]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line302/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:50]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:50]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line295/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:52]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:52]
+WARNING: [Vivado 12-507] No nets matched 'cct[0]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'cct[1]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'cct[2]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'cct[3]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'cct[4]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'cct[5]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:53]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line298/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:55]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:55]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line304/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1_i1.usrclk1_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:61]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:61]
+WARNING: [Vivado 12-507] No nets matched 'clear_int_en0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:62]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:62]
+WARNING: [Vivado 12-507] No nets matched 'clear_int_en1'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:63]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:63]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line267/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:65]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_1' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:65]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack0[0]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:66]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack0[1]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:66]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack0[2]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:66]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_1' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:66]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack1[0]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:67]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack1[1]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:67]
+WARNING: [Vivado 12-507] No nets matched 'irq_ack1[2]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:67]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_1' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:67]
+WARNING: [Vivado 12-507] No nets matched 'usr_irq_req[0]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:68]
+WARNING: [Vivado 12-507] No nets matched 'usr_irq_req[1]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:68]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_1' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:68]
+WARNING: [Vivado 12-507] No nets matched 'usr_irq_ack[0]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:69]
+WARNING: [Vivado 12-507] No nets matched 'usr_irq_ack[1]'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:69]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_1' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:69]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line271/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:72]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:72]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line273/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:76]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:76]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line83/stat_data'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:77]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:77]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line83/stop_data'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:78]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:78]
+WARNING: [Vivado 12-507] No nets matched 'nolabel_line278/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1_0'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:90]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc:90]
+Finished Parsing XDC File [C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.srcs/constrs_1/new/SSI_top.xdc]
+INFO: [Project 1-1714] 9 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2449.824 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 440 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 18 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 398 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 15 instances
+  RAM32X1S => RAM32X1S (RAMS32): 9 instances
+
+open_run: Time (s): cpu = 00:00:50 ; elapsed = 00:00:39 . Memory (MB): peak = 2489.254 ; gain = 851.695
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 16384 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 16384 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+connect_debug_port u_ila_0/clk [get_nets [list bram_clk_b ]]
+connect_debug_port u_ila_1/clk [get_nets [list nolabel_line276/XDMA_i/xdma_0/inst/XDMA_xdma_0_0_pcie2_to_pcie3_wrapper_i/pcie2_ip_i/inst/inst/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/pclk_i1_bufgctrl.pclk_i1_0 ]]
+set_property port_width 3 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {addr_b[0]} {addr_b[1]} {addr_b[2]} ]]
+set_property port_width 21 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list {SSI_interface_ins/nop_cnt[0]} {SSI_interface_ins/nop_cnt[1]} {SSI_interface_ins/nop_cnt[2]} {SSI_interface_ins/nop_cnt[3]} {SSI_interface_ins/nop_cnt[4]} {SSI_interface_ins/nop_cnt[5]} {SSI_interface_ins/nop_cnt[6]} {SSI_interface_ins/nop_cnt[7]} {SSI_interface_ins/nop_cnt[8]} {SSI_interface_ins/nop_cnt[9]} {SSI_interface_ins/nop_cnt[10]} {SSI_interface_ins/nop_cnt[11]} {SSI_interface_ins/nop_cnt[12]} {SSI_interface_ins/nop_cnt[13]} {SSI_interface_ins/nop_cnt[14]} {SSI_interface_ins/nop_cnt[15]} {SSI_interface_ins/nop_cnt[16]} {SSI_interface_ins/nop_cnt[17]} {SSI_interface_ins/nop_cnt[18]} {SSI_interface_ins/nop_cnt[19]} {SSI_interface_ins/nop_cnt[20]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 6 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list {SSI_interface_ins/bit_cnt[0]} {SSI_interface_ins/bit_cnt[1]} {SSI_interface_ins/bit_cnt[2]} {SSI_interface_ins/bit_cnt[3]} {SSI_interface_ins/bit_cnt[4]} {SSI_interface_ins/bit_cnt[5]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 16 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list {SSI_interface_ins/rate_cnt[0]} {SSI_interface_ins/rate_cnt[1]} {SSI_interface_ins/rate_cnt[2]} {SSI_interface_ins/rate_cnt[3]} {SSI_interface_ins/rate_cnt[4]} {SSI_interface_ins/rate_cnt[5]} {SSI_interface_ins/rate_cnt[6]} {SSI_interface_ins/rate_cnt[7]} {SSI_interface_ins/rate_cnt[8]} {SSI_interface_ins/rate_cnt[9]} {SSI_interface_ins/rate_cnt[10]} {SSI_interface_ins/rate_cnt[11]} {SSI_interface_ins/rate_cnt[12]} {SSI_interface_ins/rate_cnt[13]} {SSI_interface_ins/rate_cnt[14]} {SSI_interface_ins/rate_cnt[15]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 16 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list {SSI_interface_ins/rev_cnt[0]} {SSI_interface_ins/rev_cnt[1]} {SSI_interface_ins/rev_cnt[2]} {SSI_interface_ins/rev_cnt[3]} {SSI_interface_ins/rev_cnt[4]} {SSI_interface_ins/rev_cnt[5]} {SSI_interface_ins/rev_cnt[6]} {SSI_interface_ins/rev_cnt[7]} {SSI_interface_ins/rev_cnt[8]} {SSI_interface_ins/rev_cnt[9]} {SSI_interface_ins/rev_cnt[10]} {SSI_interface_ins/rev_cnt[11]} {SSI_interface_ins/rev_cnt[12]} {SSI_interface_ins/rev_cnt[13]} {SSI_interface_ins/rev_cnt[14]} {SSI_interface_ins/rev_cnt[15]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 13 [get_debug_ports u_ila_1/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe4]
+connect_debug_port u_ila_1/probe4 [get_nets [list {SSI_interface_ins/scl_cnt[0]} {SSI_interface_ins/scl_cnt[1]} {SSI_interface_ins/scl_cnt[2]} {SSI_interface_ins/scl_cnt[3]} {SSI_interface_ins/scl_cnt[4]} {SSI_interface_ins/scl_cnt[5]} {SSI_interface_ins/scl_cnt[6]} {SSI_interface_ins/scl_cnt[7]} {SSI_interface_ins/scl_cnt[8]} {SSI_interface_ins/scl_cnt[9]} {SSI_interface_ins/scl_cnt[10]} {SSI_interface_ins/scl_cnt[11]} {SSI_interface_ins/scl_cnt[12]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 3 [get_debug_ports u_ila_1/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe5]
+connect_debug_port u_ila_1/probe5 [get_nets [list {SSI_interface_ins/rx_state[0]} {SSI_interface_ins/rx_state[1]} {SSI_interface_ins/rx_state[2]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 9 [get_debug_ports u_ila_1/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe6]
+connect_debug_port u_ila_1/probe6 [get_nets [list {addr_b[3]} {addr_b[4]} {addr_b[5]} {addr_b[6]} {addr_b[7]} {addr_b[8]} {addr_b[9]} {addr_b[10]} {addr_b[11]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 64 [get_debug_ports u_ila_1/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe7]
+connect_debug_port u_ila_1/probe7 [get_nets [list {dout_b[0]} {dout_b[1]} {dout_b[2]} {dout_b[3]} {dout_b[4]} {dout_b[5]} {dout_b[6]} {dout_b[7]} {dout_b[8]} {dout_b[9]} {dout_b[10]} {dout_b[11]} {dout_b[12]} {dout_b[13]} {dout_b[14]} {dout_b[15]} {dout_b[16]} {dout_b[17]} {dout_b[18]} {dout_b[19]} {dout_b[20]} {dout_b[21]} {dout_b[22]} {dout_b[23]} {dout_b[24]} {dout_b[25]} {dout_b[26]} {dout_b[27]} {dout_b[28]} {dout_b[29]} {dout_b[30]} {dout_b[31]} {dout_b[32]} {dout_b[33]} {dout_b[34]} {dout_b[35]} {dout_b[36]} {dout_b[37]} {dout_b[38]} {dout_b[39]} {dout_b[40]} {dout_b[41]} {dout_b[42]} {dout_b[43]} {dout_b[44]} {dout_b[45]} {dout_b[46]} {dout_b[47]} {dout_b[48]} {dout_b[49]} {dout_b[50]} {dout_b[51]} {dout_b[52]} {dout_b[53]} {dout_b[54]} {dout_b[55]} {dout_b[56]} {dout_b[57]} {dout_b[58]} {dout_b[59]} {dout_b[60]} {dout_b[61]} {dout_b[62]} {dout_b[63]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 3 [get_debug_ports u_ila_1/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe8]
+connect_debug_port u_ila_1/probe8 [get_nets [list {irq_ack[0]} {irq_ack[1]} {irq_ack[2]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 8 [get_debug_ports u_ila_1/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe9]
+connect_debug_port u_ila_1/probe9 [get_nets [list {wen_b[0]} {wen_b[1]} {wen_b[2]} {wen_b[3]} {wen_b[4]} {wen_b[5]} {wen_b[6]} {wen_b[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 8 [get_debug_ports u_ila_1/probe10]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe10]
+connect_debug_port u_ila_1/probe10 [get_nets [list {wen_s[0]} {wen_s[1]} {wen_s[2]} {wen_s[3]} {wen_s[4]} {wen_s[5]} {wen_s[6]} {wen_s[7]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 64 [get_debug_ports u_ila_1/probe11]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe11]
+connect_debug_port u_ila_1/probe11 [get_nets [list {din_reg[0]} {din_reg[1]} {din_reg[2]} {din_reg[3]} {din_reg[4]} {din_reg[5]} {din_reg[6]} {din_reg[7]} {din_reg[8]} {din_reg[9]} {din_reg[10]} {din_reg[11]} {din_reg[12]} {din_reg[13]} {din_reg[14]} {din_reg[15]} {din_reg[16]} {din_reg[17]} {din_reg[18]} {din_reg[19]} {din_reg[20]} {din_reg[21]} {din_reg[22]} {din_reg[23]} {din_reg[24]} {din_reg[25]} {din_reg[26]} {din_reg[27]} {din_reg[28]} {din_reg[29]} {din_reg[30]} {din_reg[31]} {din_reg[32]} {din_reg[33]} {din_reg[34]} {din_reg[35]} {din_reg[36]} {din_reg[37]} {din_reg[38]} {din_reg[39]} {din_reg[40]} {din_reg[41]} {din_reg[42]} {din_reg[43]} {din_reg[44]} {din_reg[45]} {din_reg[46]} {din_reg[47]} {din_reg[48]} {din_reg[49]} {din_reg[50]} {din_reg[51]} {din_reg[52]} {din_reg[53]} {din_reg[54]} {din_reg[55]} {din_reg[56]} {din_reg[57]} {din_reg[58]} {din_reg[59]} {din_reg[60]} {din_reg[61]} {din_reg[62]} {din_reg[63]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 64 [get_debug_ports u_ila_1/probe12]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe12]
+connect_debug_port u_ila_1/probe12 [get_nets [list {din_s[0]} {din_s[1]} {din_s[2]} {din_s[3]} {din_s[4]} {din_s[5]} {din_s[6]} {din_s[7]} {din_s[8]} {din_s[9]} {din_s[10]} {din_s[11]} {din_s[12]} {din_s[13]} {din_s[14]} {din_s[15]} {din_s[16]} {din_s[17]} {din_s[18]} {din_s[19]} {din_s[20]} {din_s[21]} {din_s[22]} {din_s[23]} {din_s[24]} {din_s[25]} {din_s[26]} {din_s[27]} {din_s[28]} {din_s[29]} {din_s[30]} {din_s[31]} {din_s[32]} {din_s[33]} {din_s[34]} {din_s[35]} {din_s[36]} {din_s[37]} {din_s[38]} {din_s[39]} {din_s[40]} {din_s[41]} {din_s[42]} {din_s[43]} {din_s[44]} {din_s[45]} {din_s[46]} {din_s[47]} {din_s[48]} {din_s[49]} {din_s[50]} {din_s[51]} {din_s[52]} {din_s[53]} {din_s[54]} {din_s[55]} {din_s[56]} {din_s[57]} {din_s[58]} {din_s[59]} {din_s[60]} {din_s[61]} {din_s[62]} {din_s[63]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 3 [get_debug_ports u_ila_1/probe13]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe13]
+connect_debug_port u_ila_1/probe13 [get_nets [list {irq_state1[0]} {irq_state1[1]} {irq_state1[2]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 24 [get_debug_ports u_ila_1/probe14]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe14]
+connect_debug_port u_ila_1/probe14 [get_nets [list {data_out[0]} {data_out[1]} {data_out[2]} {data_out[3]} {data_out[4]} {data_out[5]} {data_out[6]} {data_out[7]} {data_out[8]} {data_out[9]} {data_out[10]} {data_out[11]} {data_out[12]} {data_out[13]} {data_out[14]} {data_out[15]} {data_out[16]} {data_out[17]} {data_out[18]} {data_out[19]} {data_out[20]} {data_out[21]} {data_out[22]} {data_out[23]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 4 [get_debug_ports u_ila_1/probe15]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe15]
+connect_debug_port u_ila_1/probe15 [get_nets [list {reg_cnt[0]} {reg_cnt[1]} {reg_cnt[2]} {reg_cnt[3]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 64 [get_debug_ports u_ila_1/probe16]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe16]
+connect_debug_port u_ila_1/probe16 [get_nets [list {din_b[0]} {din_b[1]} {din_b[2]} {din_b[3]} {din_b[4]} {din_b[5]} {din_b[6]} {din_b[7]} {din_b[8]} {din_b[9]} {din_b[10]} {din_b[11]} {din_b[12]} {din_b[13]} {din_b[14]} {din_b[15]} {din_b[16]} {din_b[17]} {din_b[18]} {din_b[19]} {din_b[20]} {din_b[21]} {din_b[22]} {din_b[23]} {din_b[24]} {din_b[25]} {din_b[26]} {din_b[27]} {din_b[28]} {din_b[29]} {din_b[30]} {din_b[31]} {din_b[32]} {din_b[33]} {din_b[34]} {din_b[35]} {din_b[36]} {din_b[37]} {din_b[38]} {din_b[39]} {din_b[40]} {din_b[41]} {din_b[42]} {din_b[43]} {din_b[44]} {din_b[45]} {din_b[46]} {din_b[47]} {din_b[48]} {din_b[49]} {din_b[50]} {din_b[51]} {din_b[52]} {din_b[53]} {din_b[54]} {din_b[55]} {din_b[56]} {din_b[57]} {din_b[58]} {din_b[59]} {din_b[60]} {din_b[61]} {din_b[62]} {din_b[63]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 29 [get_debug_ports u_ila_1/probe17]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe17]
+connect_debug_port u_ila_1/probe17 [get_nets [list {addr_s[0]} {addr_s[1]} {addr_s[2]} {addr_s[3]} {addr_s[4]} {addr_s[5]} {addr_s[6]} {addr_s[7]} {addr_s[8]} {addr_s[9]} {addr_s[10]} {addr_s[11]} {addr_s[12]} {addr_s[13]} {addr_s[14]} {addr_s[15]} {addr_s[16]} {addr_s[17]} {addr_s[18]} {addr_s[19]} {addr_s[20]} {addr_s[21]} {addr_s[22]} {addr_s[23]} {addr_s[24]} {addr_s[25]} {addr_s[26]} {addr_s[27]} {addr_s[28]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 3 [get_debug_ports u_ila_1/probe18]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe18]
+connect_debug_port u_ila_1/probe18 [get_nets [list {irq_state0[0]} {irq_state0[1]} {irq_state0[2]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 3 [get_debug_ports u_ila_1/probe19]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe19]
+connect_debug_port u_ila_1/probe19 [get_nets [list {single_sample[0]} {single_sample[1]} {single_sample[2]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 64 [get_debug_ports u_ila_1/probe20]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe20]
+connect_debug_port u_ila_1/probe20 [get_nets [list {dout_s[0]} {dout_s[1]} {dout_s[2]} {dout_s[3]} {dout_s[4]} {dout_s[5]} {dout_s[6]} {dout_s[7]} {dout_s[8]} {dout_s[9]} {dout_s[10]} {dout_s[11]} {dout_s[12]} {dout_s[13]} {dout_s[14]} {dout_s[15]} {dout_s[16]} {dout_s[17]} {dout_s[18]} {dout_s[19]} {dout_s[20]} {dout_s[21]} {dout_s[22]} {dout_s[23]} {dout_s[24]} {dout_s[25]} {dout_s[26]} {dout_s[27]} {dout_s[28]} {dout_s[29]} {dout_s[30]} {dout_s[31]} {dout_s[32]} {dout_s[33]} {dout_s[34]} {dout_s[35]} {dout_s[36]} {dout_s[37]} {dout_s[38]} {dout_s[39]} {dout_s[40]} {dout_s[41]} {dout_s[42]} {dout_s[43]} {dout_s[44]} {dout_s[45]} {dout_s[46]} {dout_s[47]} {dout_s[48]} {dout_s[49]} {dout_s[50]} {dout_s[51]} {dout_s[52]} {dout_s[53]} {dout_s[54]} {dout_s[55]} {dout_s[56]} {dout_s[57]} {dout_s[58]} {dout_s[59]} {dout_s[60]} {dout_s[61]} {dout_s[62]} {dout_s[63]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 32 [get_debug_ports u_ila_1/probe21]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe21]
+connect_debug_port u_ila_1/probe21 [get_nets [list {data_all[0]} {data_all[1]} {data_all[2]} {data_all[3]} {data_all[4]} {data_all[5]} {data_all[6]} {data_all[7]} {data_all[8]} {data_all[9]} {data_all[10]} {data_all[11]} {data_all[12]} {data_all[13]} {data_all[14]} {data_all[15]} {data_all[16]} {data_all[17]} {data_all[18]} {data_all[19]} {data_all[20]} {data_all[21]} {data_all[22]} {data_all[23]} {data_all[24]} {data_all[25]} {data_all[26]} {data_all[27]} {data_all[28]} {data_all[29]} {data_all[30]} {data_all[31]} ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe22]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe22]
+connect_debug_port u_ila_1/probe22 [get_nets [list clear_int_en ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe23]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe23]
+connect_debug_port u_ila_1/probe23 [get_nets [list cs_1 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe24]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe24]
+connect_debug_port u_ila_1/probe24 [get_nets [list cs_en ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe25]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe25]
+connect_debug_port u_ila_1/probe25 [get_nets [list data_acq_en ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe26]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe26]
+connect_debug_port u_ila_1/probe26 [get_nets [list data_flag ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe27]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe27]
+connect_debug_port u_ila_1/probe27 [get_nets [list en_b ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe28]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe28]
+connect_debug_port u_ila_1/probe28 [get_nets [list en_s ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe29]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe29]
+connect_debug_port u_ila_1/probe29 [get_nets [list en_s1 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe30]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe30]
+connect_debug_port u_ila_1/probe30 [get_nets [list ping_pang_sel ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe31]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe31]
+connect_debug_port u_ila_1/probe31 [get_nets [list r_rst ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe32]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe32]
+connect_debug_port u_ila_1/probe32 [get_nets [list req_0 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe33]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe33]
+connect_debug_port u_ila_1/probe33 [get_nets [list req_1 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe34]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe34]
+connect_debug_port u_ila_1/probe34 [get_nets [list sclk1 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe35]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe35]
+connect_debug_port u_ila_1/probe35 [get_nets [list sda1 ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe36]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe36]
+connect_debug_port u_ila_1/probe36 [get_nets [list Sda_ctrl ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe37]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe37]
+connect_debug_port u_ila_1/probe37 [get_nets [list nolabel_line85/stat_cs ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe38]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe38]
+connect_debug_port u_ila_1/probe38 [get_nets [list nolabel_line85/stat_data ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe39]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe39]
+connect_debug_port u_ila_1/probe39 [get_nets [list nolabel_line85/stat_scl ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe40]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe40]
+connect_debug_port u_ila_1/probe40 [get_nets [list nolabel_line85/stop_cs ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe41]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe41]
+connect_debug_port u_ila_1/probe41 [get_nets [list nolabel_line85/stop_data ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe42]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe42]
+connect_debug_port u_ila_1/probe42 [get_nets [list nolabel_line85/stop_scl ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe43]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe43]
+connect_debug_port u_ila_1/probe43 [get_nets [list usr_irq_ack ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe44]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe44]
+connect_debug_port u_ila_1/probe44 [get_nets [list usr_irq_req ]]
+save_constraints
+launch_runs impl_1 -jobs 8
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.185 . Memory (MB): peak = 2557.812 ; gain = 18.504
+WARNING: [Common 17-210] 'write_hwdef' is deprecated.
+[Sun Sep 28 16:47:17 2025] Launched impl_1...
+Run output will be captured here: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 2560.805 ; gain = 43.289
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Sep 28 17:01:34 2025] Launched impl_1...
+Run output will be captured here: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 13 2022-03:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2025 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2560.805 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/DebugChannelA
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 4363.715 ; gain = 1802.910
+set_property PROGRAM.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 3 ILA core(s).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7k325t_0 and the probes file(s) C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.ltx.
+The device design has 3 ILA core(s) and 0 VIO core(s). 2 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object probe0 was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_2.wcfg} -radix bin { {addr_b} {wen_b} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {addr_s} {clear_int_en} {cs_1} {cs_en} {data_acq_en} {data_all} {data_flag} {data_out} {din_b} {din_reg} {din_s} {dout_b} {dout_s} {en_b} {en_s} {en_s1} {irq_ack} {irq_state0} {irq_state1} {nolabel_line85/stat_cs} {nolabel_line85/stat_data} {nolabel_line85/stat_scl} {nolabel_line85/stop_cs} {nolabel_line85/stop_data} {nolabel_line85/stop_scl} {ping_pang_sel} {r_rst} {reg_cnt} {req_0} {req_1} {sclk1} {sda1} {Sda_ctrl} {single_sample} {SSI_interface_ins/bit_cnt} {SSI_interface_ins/nop_cnt} {SSI_interface_ins/rate_cnt} {SSI_interface_ins/rev_cnt} {SSI_interface_ins/rx_state} {SSI_interface_ins/scl_cnt} {usr_irq_ack} {usr_irq_req} {wen_s} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2025-Sep-28 17:17:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2025-Sep-28 17:17:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 4492.328 ; gain = 1.184
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2025-Sep-28 17:19:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2025-Sep-28 17:19:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 4493.027 ; gain = 0.699
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2025-Sep-28 17:29:59
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2025-Sep-28 17:30:00
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 4495.863 ; gain = 0.957
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2025-Sep-28 17:31:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2025-Sep-28 17:31:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4499.328 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2025-Sep-28 17:33:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2025-Sep-28 17:33:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+display_hw_ila_data: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 4499.328 ; gain = 0.000
+save_wave_config {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw_manager
+write_project_tcl -all_properties -use_bd_files -dump_project_info {C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.tcl}
+INFO: [Vivado-projutils-8] Tcl script 'XDMA_SSI.tcl' generated in output directory 'C:/Users/Zcy/Desktop/new_prj/XDMA_SSI'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set wth respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source XDMA_SSI.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 28 18:36:40 2025...

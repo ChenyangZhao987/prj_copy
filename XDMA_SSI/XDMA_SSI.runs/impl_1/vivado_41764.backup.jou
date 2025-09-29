@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Sep 28 09:10:17 2025
+# Process ID: 41764
+# Current directory: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1
+# Command line: vivado.exe -log SSI_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SSI_top.tcl -notrace
+# Log file: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1/SSI_top.vdi
+# Journal file: C:/Users/Zcy/Desktop/new_prj/XDMA_SSI/XDMA_SSI.runs/impl_1\vivado.jou
+# Running On: DESKTOP-VQGIJDC, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8428 MB
+#-----------------------------------------------------------
+source SSI_top.tcl -notrace
