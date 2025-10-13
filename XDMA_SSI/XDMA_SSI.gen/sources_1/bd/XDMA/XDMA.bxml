@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="40">
   <CompositeFile CompositeFileTopName="XDMA" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1758876457"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1758876457"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1758876457"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1758876457"/>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1760338036"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1760338036"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1760338036"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1760338036"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth\XDMA.v" Type="Verilog">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>

@@ -166,7 +166,6 @@ always@(*)begin
 		2	:	addr_sel = 14'h400;		//17'h2000;
 		3	:	addr_sel = 14'h800;		//17'h4000;
 		4	:	addr_sel = 14'h1000;	//17'h8000;
-		5	:	addr_sel = 14'h2000;	//17'h10000;
 		default:addr_sel = 14'h100;		//17'h800;
 	endcase
 end
@@ -177,7 +176,7 @@ always@(posedge bram_clk_b)
 	if(r_rst)begin	
 		en_s1 <= 1'b0;
 		en_s  <= 1'b0;
-	end else if( (addr_s == addr_sel && req_0) | (addr_s == ('h10000 + addr_sel) && req_1) )begin
+	end else if( (addr_s == addr_sel && req_0) | (addr_s == ('h1000 + addr_sel) && req_1) )begin
 		en_s1 <= 1'b0;
 		en_s  <= en_s1;
 	end else begin
@@ -190,8 +189,8 @@ always@(posedge bram_clk_b)
 		addr_s <= 'd0;
 	end else if(en_s && data_acq_en)begin
 		if(addr_s == addr_sel)begin//基地址+深度
-			addr_s <= ~req_0 ? 'h10000 : addr_s;
-		end else if(addr_s == ('h10000 + addr_sel))begin//基地址+深度
+			addr_s <= ~req_0 ? 'h1000 : addr_s;
+		end else if(addr_s == ('h1000 + addr_sel))begin//基地址+深度
 			addr_s <= ~req_1 ? 'd0 : addr_s;
 		end else begin
 			addr_s <= addr_s + 1'b1;
@@ -221,7 +220,7 @@ always@(posedge bram_clk_b)
 	end else
 		case(irq_state0)
 			0	:	begin
-						irq_state0 <= (addr_s == ('h10000 + addr_sel)) && en_s && ~req_1 ?  'd1 : 'd0;
+						irq_state0 <= (addr_s == ('h1000 + addr_sel)) && en_s && ~req_1 ?  'd1 : 'd0;
 						req_0	<= 1'b0;
 						// usr_irq_req[0] <= 1'b0;
 					end 
