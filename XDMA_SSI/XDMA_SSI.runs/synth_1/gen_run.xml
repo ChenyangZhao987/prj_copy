@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1759049231" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SSI_top.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1759049231" LaunchIncrCheckpoint="$PPRDIR/../../new_prj/XDMA_SSI/XDMA_SSI.srcs/utils_1/imports/synth_1/SSI_top.dcp">
   <File Type="PA-TCL" Name="SSI_top.tcl"/>
   <File Type="REPORTS-TCL" Name="SSI_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="SSI_top.vds"/>
@@ -80,8 +80,8 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="XDMA_axi_bram_ctrl_0_5"/>
   <BlockFileSet Type="BlockSrcs" Name="XDMA_xdma_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="XDMA_axi_bram_ctrl_0_5"/>
   <BlockFileSet Type="BlockSrcs" Name="XDMA_blk_mem_gen_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="XDMA_axi_bram_ctrl_0_4"/>
 </GenRun>
