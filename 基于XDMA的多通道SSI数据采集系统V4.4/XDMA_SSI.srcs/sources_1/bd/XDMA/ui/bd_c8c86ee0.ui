@@ -1,0 +1,61 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.56603",
+   "Default View_TopLeft":"-527,459",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port pcie_mgt -pg 1 -lvl 5 -x 1310 -y 840 -defaultsOSRD
+preplace port BRAM_PORTA_0 -pg 1 -lvl 5 -x 1310 -y 740 -defaultsOSRD
+preplace port DDR_SYS_CLK -pg 1 -lvl 0 -x -280 -y 320 -defaultsOSRD
+preplace port DDR3_0 -pg 1 -lvl 5 -x 1310 -y 290 -defaultsOSRD
+preplace port S_AXIS_S2MM_0 -pg 1 -lvl 0 -x -280 -y 510 -defaultsOSRD
+preplace port S_AXIS_S2MM_CMD_0 -pg 1 -lvl 0 -x -280 -y 530 -defaultsOSRD
+preplace port M_AXIS_S2MM_STS_0 -pg 1 -lvl 5 -x 1310 -y 560 -defaultsOSRD
+preplace port port-id_pcie_sys_rst_n -pg 1 -lvl 0 -x -280 -y 690 -defaultsOSRD
+preplace port port-id_pcie_sys_clk -pg 1 -lvl 0 -x -280 -y 670 -defaultsOSRD
+preplace port port-id_user_lnk_up -pg 1 -lvl 5 -x 1310 -y 820 -defaultsOSRD
+preplace port port-id_xdma_axi_aclk -pg 1 -lvl 5 -x 1310 -y 860 -defaultsOSRD
+preplace port port-id_xdma_ax_aresetn -pg 1 -lvl 5 -x 1310 -y 880 -defaultsOSRD
+preplace port port-id_init_calib_complete -pg 1 -lvl 5 -x 1310 -y 370 -defaultsOSRD
+preplace port port-id_DDR_sys_rst -pg 1 -lvl 0 -x -280 -y 340 -defaultsOSRD
+preplace port port-id_mmcm_locked -pg 1 -lvl 5 -x 1310 -y 350 -defaultsOSRD
+preplace portBus usr_irq_ack -pg 1 -lvl 5 -x 1310 -y 800 -defaultsOSRD
+preplace portBus usr_irq_req -pg 1 -lvl 0 -x -280 -y 710 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 4 -x 1100 -y 740 -defaultsOSRD -resize 222 123
+preplace inst xdma_0 -pg 1 -lvl 1 -x -110 -y 690 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 3 -x 610 -y 670 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 4 -x 1100 -y 330 -defaultsOSRD
+preplace inst axi_datamover_0 -pg 1 -lvl 4 -x 1100 -y 560 -defaultsOSRD -resize 285 188
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 220 -y 70 -defaultsOSRD
+preplace netloc mig_7series_0_init_calib_complete 1 4 1 NJ 370
+preplace netloc mig_7series_0_ui_clk 1 2 3 450 900 N 900 1280
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 1 4 40 10 NJ 10 N 10 1270
+preplace netloc sys_clk_0_1 1 0 1 NJ 670
+preplace netloc sys_rst_0_1 1 0 4 NJ 340 N 340 NJ 340 N
+preplace netloc sys_rst_n_0_1 1 0 1 NJ 690
+preplace netloc util_vector_logic_0_Res 1 2 2 430 360 N
+preplace netloc xdma_0_axi_aclk 1 1 4 N 680 400 860 790 860 NJ
+preplace netloc xdma_0_axi_aresetn 1 1 4 N 700 410 870 800 880 NJ
+preplace netloc xdma_0_user_lnk_up 1 1 4 N 660 380 840 770 820 NJ
+preplace netloc xdma_0_usr_irq_ack 1 1 4 N 720 370 890 N 890 1290J
+preplace netloc mig_7series_0_mmcm_locked 1 4 1 NJ 350
+preplace netloc usr_irq_req_0_1 1 0 1 NJ 710
+preplace netloc SYS_CLK_0_2 1 0 4 NJ 320 N 320 NJ 320 N
+preplace netloc S_AXIS_S2MM_0_1 1 0 4 NJ 510 N 510 NJ 510 N
+preplace netloc S_AXIS_S2MM_CMD_0_1 1 0 4 NJ 530 40 520 NJ 520 800
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 NJ 740
+preplace netloc axi_datamover_0_M_AXIS_S2MM_STS 1 4 1 NJ 560
+preplace netloc mig_7series_0_DDR3 1 4 1 NJ 290
+preplace netloc xdma_0_M_AXI_BYPASS 1 1 3 N 620 420 820 760
+preplace netloc xdma_0_pcie_mgt 1 1 4 N 640 390 830 780 840 NJ
+preplace netloc xdma_0_M_AXI 1 1 2 40 580 N
+preplace netloc axi_interconnect_0_M00_AXI 1 3 1 760 300n
+preplace netloc axi_datamover_0_M_AXI_S2MM 1 2 3 440 850 N 850 1270
+levelinfo -pg 1 -280 -110 220 610 1100 1310
+pagesize -pg 1 -db -bbox -sgen -490 0 1520 1020
+"
+}
+{
+   "da_axi4_cnt":"1"
+}
